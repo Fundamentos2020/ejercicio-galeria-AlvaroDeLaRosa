@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 0px) {
+    .col_1{width: 8.33%;}
+    .col_2{width: 16.66%;}
+    .col_3{width: 25%;}
+    .col_4{width: 33.33%;}
+    .col_5{width: 41.66%;}
+    .col_6{width: 50%;}
+    .col_7{width: 58.33%;}
+    .col_8{width: 66.66%;}
+    .col_9{width: 75%;}
+    .col_10{width: 83.33%;}
+    .col_11{width: 91.66%;}
+    .col_12{width: 100%}
+}
+
+@media (min-width: 768px) {
+    .col-m_1{width: 8.33%;}
+    .col-m_2{width: 16.66%;}
+    .col-m_2p5{width: 20%;}
+    .col-m_3{width: 25%;}
+    .col-m_4{width: 33.33%;}
+    .col-m_5{width: 41.66%;}
+    .col-m_6{width: 50%;}
+    .col-m_7{width: 58.33%;}
+    .col-m_8{width: 66.66%;}
+    .col-m_9{width: 75%;}
+    .col-m_10{width: 83.33%;}
+    .col-m_11{width: 91.66%;}
+    .col-m_12{width: 100%;}
+}
+
+[class*="col_"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.font1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pad1 {
+    padding-left: 20px;
+}
+
+.bord1 {
+    border: solid black;
+}
+
+.image {
+    size: contain;
+    position: center;
+    border: solid white 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page {
+    border: solid rgba(128, 128, 128, 0.342);
+    background-color: white;
+    font-family: 'Agency FB';
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    color: rgba(128, 128, 128, 0.342);
+}
+
+.page2 {
+    border: solid black;
+    background-color: rgb(197, 0, 0);
+    font-family: 'Agency FB';
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    color: white;
+}
